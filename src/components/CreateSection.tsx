@@ -1,6 +1,6 @@
 import data from "../data/db.json";
 
-export default function Section1() {
+export default function CreateSection() {
    return (
       <div className="grid grid-cols-3 gap-[20px] py-[20px] h-[247px]">
          {data.section1.map(({ title, desc }, index) => (

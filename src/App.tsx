@@ -1,11 +1,11 @@
-import { useState } from 'react';
-import Header from './components/Header';
-import Section1 from './components/Section1';
-import Section2 from './components/Section2';
-import Sidebar from './components/Sidebar';
-import Section3 from './components/Section3';
-import TaskSection from './components/TaskSection';
-import Footer from './components/Footer';
+import { useState } from "react";
+import Header from "./components/Header";
+import Sidebar from "./components/Sidebar";
+import TaskSection from "./components/TaskSection";
+import Footer from "./components/Footer";
+import SliderSection from "./components/SliderSection";
+import Bonus from "./components/Bonus";
+import CreateSection from "./components/CreateSection";
 
 function App() {
    const [showSidebar, setShowSidebar] = useState(true);
@@ -20,10 +20,10 @@ function App() {
 
                <div className="px-[25px]">
                   <div className="h-[78px] w-full"></div>
-                  <Section1 />
-                  <Section2 />
-                  <Section2 />
-                  <Section3 />
+                  <CreateSection />
+                  <SliderSection />
+                  <SliderSection />
+                  <Bonus />
                   <TaskSection />
                   <Footer />
                </div>

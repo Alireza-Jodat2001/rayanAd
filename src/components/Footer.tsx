@@ -1,6 +1,6 @@
 export default function Footer() {
    return (
-      <div className="h-[352px] bg-[#5B6D8C]">
+      <div className="h-[352px] bg-[#5B6D8C] p-[20px]">
          <h3 className="text-[#6CEFC3] text-[24px] mb-[70px]">
             گزارش آماری رتبه کلمات کلیدی
          </h3>

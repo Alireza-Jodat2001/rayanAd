@@ -1,9 +1,9 @@
-import data from '../data/db.json';
+import data from "../data/db.json";
 
 export default function Sidebar({ showSidebar }) {
    return (
       // prettier-ignore
-      <div className={`w-[230px] min-h-screen pt-[78px] translate-x-[100%] bg-[#2B3443] text-[#8694A5] transition duration-[0.4s] ${showSidebar ? 'translate-x-0' : 'translate-x-[100%]'}`}>
+      <div className={`w-[230px] min-h-screen pt-[78px] bg-[#2B3443] text-[#8694A5] transition duration-[0.4s] ${showSidebar ? 'translate-x-0' : 'translate-x-[100%]'}`}>
          <ul className='sticky top-[79px]'>
             {data.sidebarInfo.map(
                ({ title, subMenu, icon, iconActive }, index) => (
