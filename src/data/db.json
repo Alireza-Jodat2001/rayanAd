@@ -47,5 +47,72 @@
          "realPrice": "۹۹۹,۹۹۹,۹۹۹",
          "persentPrice": "۹۹۹,۹۹۹,۹۹۹"
       }
+   ],
+   "sidebarInfo": [
+      {
+         "title": "داشبورد",
+         "subMenu": false,
+         "icon": "/images/sidebar-icon/dashboard.svg",
+         "iconActive": "/images/sidebar-icon/dashboard-active.svg"
+      },
+      {
+         "title": "رپورتاژ خارجی",
+         "subMenu": false,
+         "icon": "/images/sidebar-icon/network.svg",
+         "iconActive": "/images/sidebar-icon/network-active.svg"
+      },
+      {
+         "title": "کمپین ها",
+         "subMenu": true,
+         "icon": "/images/sidebar-icon/notif.svg",
+         "iconActive": "/images/sidebar-icon/notif-active.svg"
+      },
+      {
+         "title": "سفارش های من",
+         "subMenu": true,
+         "icon": "/images/sidebar-icon/shop.svg",
+         "iconActive": "/images/sidebar-icon/shop-active.svg"
+      },
+      {
+         "title": "مالی",
+         "subMenu": true,
+         "icon": "/images/sidebar-icon/money.svg",
+         "iconActive": "/images/sidebar-icon/money-active.svg"
+      },
+      {
+         "title": "راهنما و پشتیبانی",
+         "subMenu": true,
+         "icon": "/images/sidebar-icon/question-mark.svg",
+         "iconActive": "/images/sidebar-icon/question-mark-active.svg"
+      }
+   ],
+   "bonusLabel": [
+      { "title": "رپورتاژ" },
+      { "title": "بک لینک" },
+      { "title": "لینک پرومکس" }
+   ],
+   "bonusSliderInfo": [
+      {
+         "title": "لورم ایپسوم",
+         "desc": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
+         "persent": "۹۹%",
+         "realPrice": "۹۹۹,۹۹۹,۹۹۹",
+         "persentPrice": "۹۹۹,۹۹۹,۹۹۹",
+         "bonus": "۲۰۰"
+      },
+      {
+         "title": "لورم ایپسوم",
+         "desc": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ",
+         "persent": "۹۹%",
+         "realPrice": "۹۹۹,۹۹۹,۹۹۹",
+         "persentPrice": "۹۹۹,۹۹۹,۹۹۹",
+         "bonus": "۲۰۰"
+      }
+   ],
+   "tsksLabel": [
+      { "title": "رپورتاژ" },
+      { "title": "بک لینک" },
+      { "title": "لینک پرومکس" },
+      { "title": "محتوا" }
    ]
 }
